@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cthulhu Theme for Roll20",
+  "description": "A simple Cthulhu RPG-based theme for Roll20.net.",
+  "author": "Michael Heilemann",
+  "version": "1.0",
+
+  "icons": {
+    "16": "icons/cthulhu-16.png",
+    "48": "icons/cthulhu-48.png",
+    "128": "icons/cthulhu-128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://app.roll20.net/editor/",
+        "https://app.roll20dev.net/editor/"
+      ],
+      "css": [
+        "/mystyles.css"
+      ],
+      "js": [
+        "/theoperator.js"
+      ]
+    }
+  ],
+
+  "web_accessible_resources": [
+    "/manifest.json",
+    "/theoperator.js",
+    "/mystyles.css",
+    "/images/*"
+  ]
+}
