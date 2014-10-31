@@ -1,0 +1,12 @@
+body {
+    background:
+      url('images/spotlight.png') center center no-repeat,
+      url('images/topleft.png') left top no-repeat,
+      url('images/topright.png') right top no-repeat,
+      url('images/bottomleft.png') left bottom no-repeat,
+      url('images/bottomright.png') right bottom no-repeat,
+      url('images/center.png') center center no-repeat,
+      url('images/leather.jpg') !important;
+    background-size: cover, auto, auto, auto, auto, auto, auto !important;
+    box-shadow: inset 0 0 200px rgba(0,0,0,.8) !important;
+}

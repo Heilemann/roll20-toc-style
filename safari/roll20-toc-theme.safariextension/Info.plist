@@ -24,7 +24,8 @@
 		<dict/>
 		<key>Stylesheets</key>
 		<array>
-			<string>mystyles.css</string>
+			<string>theme-toc.css</string>
+			<string>theme-base.css</string>
 		</array>
 		<key>Whitelist</key>
 		<array>
@@ -42,15 +43,10 @@
 	<dict>
 		<key>Website Access</key>
 		<dict>
-			<key>Allowed Domains</key>
-			<array>
-				<string>roll20.net</string>
-				<string>roll20dev.net</string>
-			</array>
 			<key>Include Secure Pages</key>
 			<true/>
 			<key>Level</key>
-			<string>Some</string>
+			<string>All</string>
 		</dict>
 	</dict>
 	<key>Website</key>
